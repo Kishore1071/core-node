@@ -10,6 +10,6 @@ const Calculation = new Promise((resolve, reject) => {
     }
 })
 
-Calculation()
+Calculation
 .then(data =>  console.log(data))
 .catch(error => console.log(error))
